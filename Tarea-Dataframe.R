@@ -6,7 +6,7 @@ t <- data.frame(a=mtcars)
   dput (t)
 
 #2 Guardar el objeto    
-dput(t, file = "~/Tarea/Carros.R")
+dput(t, file = "~/GitHub/Programacion_Actuarila_III/Carros.R")
 
 #Creacion de un nuevo objeto(Data.frame)
-CarrosTonatiuh <- dget(file="~/Tarea/Carros.R")
+CarrosTonatiuh <- dget(file="~/GitHub/Programacion_Actuarila_III/Carros.R")
